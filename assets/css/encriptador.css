@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Share+Tech+Mono&display=swap");
+
+* {
+  font-family: "Orbitron", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://wallpaperset.com/w/full/b/1/1/198269.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  font-size: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+main {
+  height: 60%;
+  justify-content: space-between;
+  display: flex;
+  padding: 1rem 4rem;
+}
+
+button:hover {
+  color: #f41a79;
+  box-shadow: inset 0 -100px 0 0 #000000;
+  cursor: pointer;
+}
+
+.caja-botones {
+  display: flex;
+  width: 100%;
+}
+
+button {
+  padding: 10px 18px;
+  text-align: center;
+  width: 50%;
+  transition: ease-out 0.5s;
+  margin: 25px;
+  border-radius: 15px;
+  background-color: #950f30;
+  color: #fff;
+  border-color: #450223;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+#btn-copiar {
+  margin: 25px 0 0 0;
+}
+
+.text-in,
+.text-on {
+  resize: none;
+  width: 100%;
+  height: 300px;
+}
+
+.container-right {
+  width: 47%;
+}
+
+.container-left {
+  width: 47%;
+}
+
+textarea {
+  background-color: #fae9ed;
+  border: 2px solid #710423;
+  color: black;
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+footer {
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.164);
+  width: 100%;
+  margin-top: 40px;
+}
+
+footer > p {
+  margin: 0;
+}
+
+#desplazamiento {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+
+form {
+  margin-top: 10px;
+  text-align: center;
+}
+
+form > label {
+  color: whitesmoke;
+  background-color: #950f30;
+  border-radius: 20px;
+  padding: 5px 8px;
+  font-size: 15px;
+}

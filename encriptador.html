@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/encriptador.css" />
+    <title>Love Encriptador</title>
+    <!-- Incluye el archivo CSS de Toastify -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Love encriptador</h1>
+    </header>
+
+    <main>
+      <section class="container-right">
+        <div>
+          <textarea
+            class="text-in"
+            id="mensaje"
+            placeholder="Ingrese el texto..."
+          ></textarea>
+        </div>
+        <div class="caja-botones">
+          <button type="button" id="cifrar">🔒 Encriptar</button>
+          <form>
+            <label for="desplazamiento">Contraseña</label>
+            <input
+              type="number"
+              min="1"
+              id="desplazamiento"
+              size="2"
+              value="1"
+            />
+          </form>
+          <button type="button" id="descifrar">🔓 Desencriptar</button>
+        </div>
+      </section>
+
+      <section class="container-left">
+        <div>
+          <textarea
+            class="text-on"
+            id="mensaje2"
+            placeholder="No se ha encontrado ningún texto."
+          ></textarea>
+        </div>
+        <div class="btn-center">
+          <button id="btn-copiar" onclick="copyText()">📋 Copiar</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;LadyCoders 2024</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>
